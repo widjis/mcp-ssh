@@ -13,7 +13,7 @@ import { NodeSSH } from 'node-ssh';
 import { z } from 'zod';
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import * as pty from 'node-pty';
+// node-pty removed as it's not used in this implementation
 import { EventEmitter } from 'events';
 import * as os from 'os';
 import * as crypto from 'crypto';
